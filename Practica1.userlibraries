@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.14.2">
+    <archive path="C:/Users/Aimar Gomez/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar" />
+  </library>
+  <library name="Maven: javax.xml.bind:jaxb-api:2.3.1">
+    <archive path="C:/Users/Aimar Gomez/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.14.2">
+    <archive path="C:/Users/Aimar Gomez/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.14.2">
+    <archive path="C:/Users/Aimar Gomez/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar" />
+  </library>
+  <library name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3">
+    <archive path="C:/Users/Aimar Gomez/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar" />
+  </library>
+  <library name="Maven: com.sun.activation:jakarta.activation:1.2.2">
+    <archive path="C:/Users/Aimar Gomez/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar" />
+  </library>
+  <library name="Maven: javax.activation:javax.activation-api:1.2.0">
+    <archive path="C:/Users/Aimar Gomez/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar" />
+  </library>
+  <library name="Maven: com.sun.xml.bind:jaxb-impl:2.3.3">
+    <archive path="C:/Users/Aimar Gomez/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar" />
+  </library>
+</eclipse-userlibraries>
+
