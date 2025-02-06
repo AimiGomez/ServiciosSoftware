@@ -9,12 +9,12 @@ import java.io.File;
 import java.io.IOException;
 import java.time.LocalDate;
 
-public class Main {
+public class JsonSerializer {
     public static void main(String[] args) {
 
 
         CustomLocalDateSerializer serializer = new CustomLocalDateSerializer();
-        ObjectMapper mimapper = new ObjectMapper();
+        ObjectMapper mapper = new ObjectMapper();
 
 
 
@@ -57,7 +57,7 @@ public class Main {
         aseguradora.getClientes().add(cliente4);
 
         try {
-            mimapper.writeValue(new File("src/main/resources/Apartado1.json"),aseguradora );
+            mapper.writeValue(new File("src/main/resources/Apartado1.json"),aseguradora );
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
