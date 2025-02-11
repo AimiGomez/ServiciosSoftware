@@ -4,38 +4,35 @@
              xsi:schemaLocation="http://www.unican.es/ss/Seguros2425 Aseguradora.xsd">
 
     <cliente nombre="Juan Ortega" email="juan@correo.com" dni="12345678X">
-        <seguro xsi:type="Terceros" id="AAA-123456" fecha="2022-01-15">
-            <vehiculo matricula="ABC1234" cv="75" esProfesional="false"/>
+        <seguro xsi:type="TRFranquicia" id="AAA-123456" fecha="2001-12-31" franquicia="100.00">
+            <vehiculo matricula="PLL9597" cv="75" esProfesional="false"/>
         </seguro>
-        <parte importe="350.50" fecha="2022-03-20" id="1">
-            <seguroRef>AAA-123456</seguroRef>
+    </cliente>
+
+
+    <cliente nombre="Pablo Prieto" email="pablo@correo.com" dni="12345678F">
+
+        <seguro xsi:type="TodoRiesgo" id="BBB-123456" fecha="2020-09-01">
+            <vehiculo matricula="PLX9597" cv="105" esProfesional="true"/>
+        </seguro>
+
+        <seguro xsi:type="Terceros" id="CCC-123456" fecha="2022-07-15" >
+            <vehiculo matricula="PLX9797" cv="60" esProfesional="false"/>
+        </seguro>
+
+        <parte importe="350.00" fecha="2021-12-31" id="1">
+            <seguroRef>BBB-123456</seguroRef>
+        </parte>
+
+        <parte importe="350.00" fecha="2023-05-15" id="2">
+            <seguroRef>CCC-123456</seguroRef>
         </parte>
     </cliente>
 
 
-    <cliente nombre="Pablo Prieto" email="pablo@correo.com" dni="87654321F">
-
-        <seguro xsi:type="TodoRiesgo" id="BBB-654321" fecha="2023-06-10">
-            <vehiculo matricula="DEF5678" cv="100" esProfesional="true"/>
-        </seguro>
-
-        <seguro xsi:type="TRFranquicia" id="CCC-789012" fecha="2021-11-25" franquicia="500.00">
-            <vehiculo matricula="GHI3456" cv="120" esProfesional="false"/>
-        </seguro>
-
-        <parte importe="1500.00" fecha="2023-07-05" id="2">
-            <seguroRef>BBB-654321</seguroRef>
-        </parte>
-
-        <parte importe="800.00" fecha="2022-12-15" id="3">
-            <seguroRef>CCC-789012</seguroRef>
-        </parte>
-    </cliente>
-
-
-    <cliente nombre="Ana Rodriguez" email="ana@correo.com" dni="11223344V">
-        <seguro xsi:type="TodoRiesgo" id="DDD-321654" fecha="2020-08-12">
-            <vehiculo matricula="JKL7890" cv="85" esProfesional="false"/>
+    <cliente nombre="Ana Rodriguez" email="ana@correo.com" dni="12345678V">
+        <seguro xsi:type="TodoRiesgo" id="CCC-324564" fecha="2014-03-01">
+            <vehiculo matricula="GLL9551" cv="150" esProfesional="true"/>
         </seguro>
     </cliente>
 
